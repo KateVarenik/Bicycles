@@ -37,7 +37,9 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
-
+html{
+	scroll-behavior: smooth;
+}
 .wrapper{
 	font-family: 'Lato', sans-serif;
 	overflow: hidden;
@@ -412,6 +414,7 @@ h2{
 
 .social-media img{
 	margin: 0 7.5px;
+	cursor: pointer;
 }
 
 .copyright{
@@ -429,7 +432,10 @@ h2{
 	margin-right: 10px;
 }
 
-
+input:focus{
+	filter: drop-shadow(0 0 10px rgba(100,194,158,0.93));
+	border: 1px solid #64c29e;
+}
 
 
 
